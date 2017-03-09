@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	  <title>Trivia Game</title>
+
+	  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	  <!-- Added link to the jQuery Library -->
+	  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+ 
+  </head>
+    <body>
+
+       <h2 id="header" Timeless Trivia></h2>
+
+    <div class="timer"> 
+        <!--put in timer html-->
+       <h3>Time Remaining: </h3>
+
+    </div>
+
+    <div class="all-questions">
+
+        <div class="question" id="question-one">
+            <h3>Question 1</h3>
+            <p>The lost fourth member of Rice Crispies Snap, Crackle and Pop was called</p>
+              <form>
+                <input type="radio" name="member" value="Ping" id="q-one-false"> Ping
+                <input type="radio" name="member" value="Bam" id="q-one-false"> Bam
+                <input type="radio" name="member" value="Pow" id="q-one-true"> Pow  
+              </form> 
+        </div>
+
+        <div class="question" id="question-two">
+            <h3>Question 2</h3>
+            <p>What year was the Declaration of Independence ratified?</p>
+              <form>
+                <input type="radio" name="year" value="1763"> 1763
+                <input type="radio" name="year" value="1776"> 1776
+                <input type="radio" name="year" value="1781"> 1781  
+              </form> 
+
+        </div>
+
+        <div class="question" id="question-three">
+            <h3>Question 3</h3>
+            <p>Which NFL team has the most Super Bowl wins?</p>
+              <form>
+                <input type="radio" name="team" value="Pittsburg Steelers"> Pittsburg Steelers
+                <input type="radio" name="team" value="New England Patriots"> New England Patriots
+                <input type="radio" name="team" value="San Francisco 49ers"> San Francisco 49ers  
+              </form> 
+        </div>
+
+    </div>
+
+      <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+    </body>
+</html>
